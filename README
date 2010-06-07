@@ -2,3 +2,8 @@ mergesort.c
 
 Single threaded recursive implementation of merge sort.  Merging is done by
 copying the segments of the array to be merged, as opposed to merging in place.
+
+mergesort-parallel.c
+
+Processed based recursive impelmentation of merge sort, using processes.
+Implemented like a fork bomb.
