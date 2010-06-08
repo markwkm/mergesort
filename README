@@ -6,4 +6,9 @@ copying the segments of the array to be merged, as opposed to merging in place.
 mergesort-parallel.c
 
 Processed based recursive impelmentation of merge sort, using processes.
-Implemented like a fork bomb.
+Not merging in place.  Implemented like a fork bomb.
+
+mergesort-pool.c
+
+Processed based recursive impelmentation of merge sort, using processes.
+Not merging in place.  Implemented limiting the degree of parallelism.
